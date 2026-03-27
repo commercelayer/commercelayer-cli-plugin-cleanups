@@ -1,3 +1,10 @@
+# [3.3.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.2...v3.3.0-oclif4.1) (2026-03-26)
+
+
+### Features
+
+* upgrade to oclif core v4 ([5776020](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/5776020d31d0068927f7cc773b5652ff25ebfcff))
+
 ## [3.2.2](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.1...v3.2.2) (2026-03-24)
 
 
