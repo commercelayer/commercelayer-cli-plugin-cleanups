@@ -1,3 +1,10 @@
+# [3.3.0-oclif4.2](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.1...v3.3.0-oclif4.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* fix publish workflow ([deaba56](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/deaba56e764f073982fd7cb5619291e6b3769801))
+
 # [3.3.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.2...v3.3.0-oclif4.1) (2026-03-26)
 
 
