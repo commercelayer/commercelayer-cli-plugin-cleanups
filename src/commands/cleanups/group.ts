@@ -1,6 +1,5 @@
 import { clColor, clConfig, clOutput } from '@commercelayer/cli-core'
 import type { Cleanup, QueryPageSize, QueryParamsList } from '@commercelayer/sdk'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import Table, { type HorizontalAlignment } from 'cli-table3'
 import Command, { Args, cliux } from '../../base'
 
@@ -101,7 +100,7 @@ export default class CleanupsGroup extends Command {
 		} catch (error) {
       if (cl.isApiError(error) && (error.status === 404))
         this.error(`Unable to find cleanup group${groupId ? ` with id ${clColor.msg.error(groupId)}` : ''}`)
-			else this.handleError(error as CommandError, flags)
+			else this.handleError(error, flags)
 		}
 
 	}

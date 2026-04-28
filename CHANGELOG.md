@@ -1,10 +1,36 @@
-## [3.2.3](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.2...v3.2.3) (2026-04-15)
+# [4.0.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.3...v4.0.0-oclif4.1) (2026-04-28)
+
+
+### Features
+
+* update dependencies ([71973a3](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/71973a35048d78bea221e5d080f33e3555fd7397))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif4
+
+# [3.3.0-oclif4.3](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.2...v3.3.0-oclif4.3) (2026-04-28)
 
 
 ### Bug Fixes
 
 * run tests in updates workflow ([474fa5e](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/474fa5e8a2358ffcccd6afeac9127e96a4d0d736))
 * update dependencies and add updates workflow ([c6c0583](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/c6c0583a579cd52f4e69c5894b3fc0c14c931b3c))
+
+# [3.3.0-oclif4.2](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.1...v3.3.0-oclif4.2) (2026-04-20)
+
+
+### Bug Fixes
+
+* fix publish workflow ([deaba56](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/deaba56e764f073982fd7cb5619291e6b3769801))
+
+# [3.3.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.2...v3.3.0-oclif4.1) (2026-03-26)
+
+
+### Features
+
+* upgrade to oclif core v4 ([5776020](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/5776020d31d0068927f7cc773b5652ff25ebfcff))
 
 ## [3.2.2](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.2.1...v3.2.2) (2026-03-24)
 
