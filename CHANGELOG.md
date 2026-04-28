@@ -1,3 +1,15 @@
+# [4.0.0-oclif4.1](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.3...v4.0.0-oclif4.1) (2026-04-28)
+
+
+### Features
+
+* update dependencies ([71973a3](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/commit/71973a35048d78bea221e5d080f33e3555fd7397))
+
+
+### BREAKING CHANGES
+
+* upgrade to oclif4
+
 # [3.3.0-oclif4.3](https://github.com/commercelayer/commercelayer-cli-plugin-cleanups/compare/v3.3.0-oclif4.2...v3.3.0-oclif4.3) (2026-04-28)
 
 
