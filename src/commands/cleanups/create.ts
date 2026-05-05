@@ -1,6 +1,5 @@
 import { clApi, clColor, clConfig, clUtil } from '@commercelayer/cli-core'
 import type { Cleanup, CommerceLayerClient } from '@commercelayer/sdk'
-import type { CommandError } from '@oclif/core/lib/interfaces'
 import type { SingleBar } from 'cli-progress'
 import Command, { cliux, Flags } from '../../base'
 import { type Batch, type Chunk, MAX_QUEUE_LENGTH, splitChunks, splitRecords } from '../../chunk'
@@ -183,7 +182,7 @@ export default class CleanupsCreate extends Command {
 
 
     } catch (error) {
-      this.handleError(error as CommandError, flags)
+      this.handleError(error, flags)
     }
 
   }
@@ -284,7 +283,7 @@ export default class CleanupsCreate extends Command {
 
       
     }).catch(async error => {
-      this.handleError(error as CommandError)
+      this.handleError(error)
       this.monitor.updateBar(bar, undefined, { message: this.monitor.message(/* error.message || */'Error', 'error') })
       return Promise.reject(error)
     })
